@@ -37,7 +37,7 @@ body {
 
 .chatContainer{
     width: 100%;
-    height: calc(100% - 180px);
+    height: calc(100% - 250px);
     margin: auto;
     overflow-y: auto;
 }
@@ -98,13 +98,14 @@ body {
     gap: 5px;
     position: absolute;
     bottom: 0;
+    height: 100px;
     width: 50%;
     left: 25%;
     border-top: 1px solid #ccc;
     padding: 5px 20px;
     border-radius: 16px;
     background: #1f1b25; /* Ensure input background blends with the chatbot */
-    margin-bottom: 10px;
+    margin-bottom: 60px;
 }
 
 .chat-input textarea {
