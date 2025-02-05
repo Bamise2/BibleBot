@@ -98,7 +98,7 @@ body {
     gap: 5px;
     position: absolute;
     bottom: 0;
-    height: 100px;
+    height: calc(100% - 84%);
     width: 50%;
     left: 25%;
     border-top: 1px solid #ccc;
@@ -112,13 +112,22 @@ body {
     border: none;
     outline: none;
     resize: none;
-    height: 55px;
+    min-height: 100%;
     width: 100%;
-    padding: 16px 16px 16px 0;
+    padding: 16px;
     font-size: .9rem;
     background: #1f1b25; /* Darker shade of chatbot color */
     color: #fff;
-   
+}
+
+.chat-input textarea::-webkit-scrollbar {
+    width: 10px;
+
+}
+
+.chat-input textarea::-webkit-scrollbar-thumb {
+    background: #2c2931;
+    border-radius: 8px;
 }
 
 .chat-input span {
