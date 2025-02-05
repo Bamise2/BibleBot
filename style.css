@@ -206,6 +206,6 @@ body {
         transform: translateX(-50%); /* This offsets it to truly center the input */
         gap: 0px;
         padding: 5px 10px;
-        margin-bottom: 8%;
+        margin-bottom: 50%;
     }
 }
