@@ -37,7 +37,7 @@ body {
 
 .chatContainer{
     width: 100%;
-    height: calc(100% - 250px);
+    height: calc(100% - 270px);
     margin: auto;
     overflow-y: auto;
 }
@@ -112,7 +112,6 @@ body {
     border: none;
     outline: none;
     resize: none;
-    min-height: 100%;
     width: 100%;
     padding: 16px;
     font-size: .9rem;
@@ -207,5 +206,6 @@ body {
         transform: translateX(-50%); /* This offsets it to truly center the input */
         gap: 0px;
         padding: 5px 10px;
+        margin-bottom: 8%;
     }
 }
