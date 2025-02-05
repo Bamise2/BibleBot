@@ -47,7 +47,7 @@ const simulateTyping = (messageElement, text, speed = 16) => {
 const generateResponse = (incomingChatLi) => {
     const messageElement = incomingChatLi.querySelector("p");
 
-    const API_URL = "https://breadoflife-backend.onrender.com/ask";
+    const API_URL = "https://breadoflife-backend.onrender.comf/ask";
     const requestOptions = {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -96,12 +96,12 @@ chatInput.addEventListener("input", () => {
     chatInput.style.height = `${Math.min(chatInput.scrollHeight, 60)}px`;
 });
 
-chatInput.addEventListener("keydown", (event) => {
-    if (event.key === "Enter" && !event.shiftKey) {
-        event.preventDefault();
-        handleChat();
-    }
-});
+// chatInput.addEventListener("keydown", (event) => {
+//     if (event.key === "Enter" && !event.shiftKey) {
+//         event.preventDefault();
+//         handleChat();
+//     }
+// });
 
 sendBtn.addEventListener("click", handleChat);
 stopBtn.addEventListener("click", stopTyping);
