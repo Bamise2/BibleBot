@@ -47,7 +47,7 @@ const simulateTyping = (messageElement, text, speed = 16) => {
 const generateResponse = (incomingChatLi) => {
     const messageElement = incomingChatLi.querySelector("p");
 
-    const API_URL = "http://127.0.0.1:5000/ask";
+    const API_URL = "https://breadoflife-backend.onrender.com/ask";
     const requestOptions = {
         method: "POST",
         headers: { "Content-Type": "application/json" },
