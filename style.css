@@ -188,7 +188,7 @@ body {
     .chatContainer .chatbox {
         margin: 0;
         width: 100%; 
-        height: calc(100% - 200px); /* Adjust the height to fit the screen minus header and input */
+        height: calc(100% - 50%); /* Adjust the height to fit the screen minus header and input */
         padding: 20px 10px 80px; /* Adjust padding for smaller screens */
     }
 
@@ -206,6 +206,6 @@ body {
         transform: translateX(-50%); /* This offsets it to truly center the input */
         gap: 0px;
         padding: 5px 10px;
-        margin-bottom: 30%;
+        margin-bottom: 10%;
     }
 }
