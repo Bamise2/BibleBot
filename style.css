@@ -98,11 +98,11 @@ body {
     gap: 5px;
     position: absolute;
     bottom: 0;
-    height: calc(100% - 84%);
+    height: 80px;
     width: 50%;
     left: 25%;
     border-top: 1px solid #ccc;
-    padding: 5px 20px;
+    padding: 9px 20px;
     border-radius: 16px;
     background: #1f1b25; /* Ensure input background blends with the chatbot */
     margin-bottom: 60px;
@@ -188,7 +188,7 @@ body {
     .chatContainer .chatbox {
         margin: 0;
         width: 100%; 
-        height: calc(100% - 50%); /* Adjust the height to fit the screen minus header and input */
+        height: calc(100% - 60%); /* Adjust the height to fit the screen minus header and input */
         padding: 20px 10px 80px; /* Adjust padding for smaller screens */
     }
 
@@ -206,6 +206,6 @@ body {
         transform: translateX(-50%); /* This offsets it to truly center the input */
         gap: 0px;
         padding: 5px 10px;
-        margin-bottom: 10%;
+        margin-bottom: 40px;
     }
 }
